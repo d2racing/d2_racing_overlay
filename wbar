@@ -1,0 +1,32 @@
+i: /usr/share/pixmaps/wbar/osxbarback.png
+c: wbar --bpress --above-desk --pos bottom --isize 32 --idist 10 --nanim 4 --falfa 65
+t: /usr/share/fonts/liberation-fonts/LiberationSans-Regular/10
+
+i: /usr/share/icons/hicolor/48x48/apps/Thunar.png
+c: thunar
+t: Thunar
+
+i: /usr/share/icons/hicolor/64x64/apps/chromium-browser.png
+c: /usr/bin/chromium-browser
+t: Chromium
+
+i: /usr/share/pixmaps/audacious.png
+c: audacious
+t: Audacious
+
+i: /usr/share/amsn/desktop-icons/128x128/apps/amsn.png
+c: /usr/bin/amsn
+t: Amsn
+
+i: /usr/share/transmission/web/images/graphics/logo.png
+c: transmission-gtk
+t: Transmission
+
+i: /usr/share/icons/hicolor/48x48/apps/applets-screenshooter.png
+c: xfce4-screenshooter
+t: Screenshooter
+
+i: /usr/share/pixmaps/lxterminal.png
+c: Terminal
+t: Terminal
+
