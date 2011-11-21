@@ -3,7 +3,8 @@ URxvt.background: rgba:1111/1111/1111/dddd
 URxvt*foreground: #f2f2f2
 URxvt*scrollstyle:rxvt
 
-URxvt*font: xft:LucidaTypeWriter:style=Regular:pixelsize=13
+#URxvt*font: xft:LucidaTypeWriter:style=Regular:pixelsize=13
+URxvt*font: xft:UbuntuMono-RI:style=Regular:pixelsize=16:antialias=true
 URxvt*shading: 40
 URxvt*tint:white
 
