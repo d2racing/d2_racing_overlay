@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
-	
-          <menu id="desktop-app-menu" label="Applications" execute="/usr/bin/openbox-menu /etc/xdg/menus/lxde-applications.menu"/>
-          <menu id="root-menu" label="Openbox 3">
+	<menu id="root-menu" label="Openbox 3">
 		<separator/>
-
-                <menu id="desktop-app-menu" label="Applications"/>
-                <separator/>
-
 		<item label="Audacious">
 			<action name="Execute">
 				<execute>
@@ -33,13 +27,6 @@
 			<action name="Execute">
 				<execute>
 					leafpad
-				</execute>
-			</action>
-		</item>
-		<item label="Mumble">
-			<action name="Execute">
-				<execute>
-					mumble
 				</execute>
 			</action>
 		</item>
@@ -86,7 +73,6 @@
 			</action>
 		</item>
 		<separator/>
-		
 		<menu id="Accessoires" label="Accessoires">
 			<item label="Evince">
 				<action name="Execute">
@@ -117,8 +103,7 @@
 				</action>
 			</item>
 		</menu>
-
-                <menu id="Bureautique" label="Bureautique">
+		<menu id="Bureautique" label="Bureautique">
 			<item label="Calculatrice">
 				<action name="Execute">
 					<execute>
