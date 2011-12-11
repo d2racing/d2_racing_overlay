@@ -7,7 +7,6 @@ app-cdr/xfburn
 app-editors/leafpad
 app-editors/vim
 app-emulation/virtualbox
-app-emulation/virtualbox-modules
 app-office/libreoffice-bin
 app-portage/eix
 app-portage/elogv
@@ -31,6 +30,7 @@ media-libs/mesa
 media-plugins/audacious-plugins
 media-sound/alsa-utils
 media-sound/audacious
+media-sound/mumble
 media-sound/volti
 media-video/mplayer
 media-video/smplayer
@@ -72,6 +72,7 @@ x11-misc/menumaker
 x11-misc/obconf
 x11-misc/oblogout
 x11-misc/obmenu
+x11-misc/openbox-menu
 x11-misc/pcmanfm
 x11-misc/pypanel
 x11-misc/slim
