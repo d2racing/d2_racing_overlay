@@ -21,8 +21,8 @@ cp -a /boot/System* ~/local/portage/d2_racing_overlay/Funbox/boot/
 time rsync -aHA  --del --force --stats --progress ~/Images/ ~/local/portage/d2_racing_overlay/Images 
 
 time rsync -aHA  --del --force --stats --progress ~/Config_KDE/ ~/local/portage/d2_racing_overlay/Config_KDE 
-time rsync -aHA  --del --force --stats --progress ~/Config_KDE/ ~/local/portage/d2_racing_overlay/Config_Razor-qt 
-time rsync -aHA  --del --force --stats --progress ~/Config_KDE/ ~/local/portage/d2_racing_overlay/Config_Xfce 
+time rsync -aHA  --del --force --stats --progress ~/Config_Razor-qt/ ~/local/portage/d2_racing_overlay/Config_Razor-qt 
+time rsync -aHA  --del --force --stats --progress ~/Config_Xfce/ ~/local/portage/d2_racing_overlay/Config_Xfce 
 
 
 time rsync -aHA  --del --force --stats --progress ~/Config_Openbox/ ~/local/portage/d2_racing_overlay/Config_Openbox 
