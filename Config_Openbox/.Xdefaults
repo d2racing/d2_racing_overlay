@@ -1,0 +1,15 @@
+URxvt.depth: 32
+URxvt.background: rgba:1111/1111/1111/dddd
+URxvt*foreground: #f2f2f2
+URxvt*scrollstyle:rxvt
+
+URxvt*font: xft:LucidaTypeWriter:style=Regular:pixelsize=13
+URxvt*shading: 40
+URxvt*tint:white
+
+URxvt.perl-ext-common:  default,matcher
+URxvt.urlLauncher:      /usr/bin/chromium
+URxvt.matcher.button:   1 
+URxvt.geometry: 90x20
+URxvt.scrollBar_right: 1
+
