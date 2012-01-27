@@ -1,0 +1,100 @@
+own_window yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_transparent yes
+own_window_type normal
+background yes
+font Trebuchet MS:size=9
+xftfont Trebuchet MS:size=9
+use_xft yes
+xftalpha 0.5
+update_interval 1.0
+total_run_times 0
+double_buffer yes
+draw_shades yes
+draw_outline yes
+draw_borders no
+draw_graph_borders yes
+minimum_size 300 5
+maximum_width 200
+border_width 0
+default_color white
+default_shade_color black
+default_outline_color black
+alignment top_left
+gap_x 1475
+gap_y 40
+no_buffers yes
+cpu_avg_samples 2
+override_utf8_locale yes
+uppercase no # set to yes if you want all text to be in uppercase
+use_spacer right
+
+#Headercolor
+color0 85ADF5
+
+#Logocolor
+color1 85ADF5 
+
+#Text Systeminfo/IP
+color2 darkgrey
+
+#Variable Text
+color3 85ADF5
+
+#Graphen
+color4 white
+
+#Running
+color5 85ADF5
+
+TEXT
+
+${image ~/Images/Funtoo-Quebec.png -p 0,0 -s 190x45}
+
+
+${font Trebuchet MS:size=9}${color0}SYSTEM ${hr 1}${color}${font}
+
+Hostname: $alignr${color1}$nodename${color}
+Kernel: $alignr${color1}$kernel${color}
+Arch:${alignr}${color1}$machine${color}
+File System: ${alignr}${color1}$fs_type${color}
+Processes: ${alignr}${color1}$processes ($running_processes running)${color}
+Uptime: ${alignr}${color1}$uptime${color}
+Load: ${alignr}${color1}$loadavg${color}
+
+${font Trebuchet MS:size=9}${color0}CPU ${hr 1}${color}${font}
+
+CPU 0${color3}${alignc} ${freq}MHz / ${cpu cpu0}%)${cpubar cpu0 7}${color}
+CPU 1${color3}${alignc} ${freq}MHz / ${cpu cpu1}%)${cpubar cpu1 7}${color}
+CPU 2${color3}${alignc} ${freq}MHz / ${cpu cpu2}%)${cpubar cpu2 7}${color}
+CPU 3${color3}${alignc} ${freq}MHz / ${cpu cpu3}%)${cpubar cpu3 7}${color}
+
+#CPU 0${color3}${alignc} ${freq}MHz / ${grep  'Core 0' | awk '{print $3}'}${alignr}(${cpu cpu0}%)${cpubar cpu0 7}${color}
+#CPU 1${color3}${alignc} ${freq}MHz / ${grep  'Core 1' | awk '{print $3}'}${alignr}(${cpu cpu1}%)${cpubar cpu1 7}${color}
+#CPU 2${color3}${alignc} ${freq}MHz / ${grep  'Core 2' | awk '{print $3}'}${alignr}(${cpu cpu2}%)${cpubar cpu2 7}${color}
+#CPU 3${color3}${alignc} ${freq}MHz / ${grep  'Core 3' | awk '{print $3}'}${alignr}(${cpu cpu3}%)${cpubar cpu3 7}${color}
+
+${color4}${cpugraph}${color}
+Highest CPU $alignr CPU     MEM
+${color5}
+${top name 1}$alignr${top cpu 1}%${top mem 1}%
+${top name 2}$alignr${top cpu 2}%${top mem 2}%
+${top name 3}$alignr${top cpu 3}%${top mem 3}%
+${color}
+Highest MEM $alignr CPU     MEM
+${color5}
+${top_mem name 1}$alignr${top_mem cpu 1}%${top_mem mem 1}%
+${top_mem name 2}$alignr${top_mem cpu 2}%${top_mem mem 2}%
+${top_mem name 3}$alignr${top_mem cpu 3}%${top_mem mem 3}%
+${color}
+${font Trebuchet MS:size=9}${color0}PARTITIONS ${hr 1}${color}${font}
+
+RAM ${color3}${alignr}$mem/$memmax${color}
+${color4}${membar 10}${color}
+SWAP ${color3}${alignr}$swap/$swapmax${color}
+${color4}${swapbar 10}${color}
+ROOT   ${color3}${alignr}${fs_used /}/${fs_size /}
+${color4}${fs_bar 10 /}${color}
+HOME   ${color3}${alignr}${fs_used /home}/${fs_size /home}
+${color4}${fs_bar 10 /home}${color}
+
