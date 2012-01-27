@@ -1,33 +1,27 @@
 #!/bin/bash
 
-ln -fn /etc/portage/package.use/audacious /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/audacious
+time rsync -aHA  --del --force --stats --progress /etc/portage/ /home/sylvain/local/portage/d2_racing_overlay/Funbox/portage
 
-ln -fn /etc/portage/package.use/conky /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/conky
+time rsync -aHA  --del --force --stats --progress /etc/X11/xorg.conf.d/ /home/sylvain/local/portage/d2_racing_overlay/Funbox/xorg.conf.d
 
-ln -fn /etc/portage/package.use/cups /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/cups
+time rsync -aHA  --del --force --stats --progress /boot/ /home/sylvain/local/portage/d2_racing_overlay/Funbox/boot
 
-ln -fn /etc/portage/package.use/git /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/git
+time rsync -aHA  --del --force --stats --progress /home/sylvain/Images/ /home/sylvain/local/portage/d2_racing_overlay/Images 
 
-ln -fn /etc/portage/package.use/hal /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/hal
+time rsync -aHA  --del --force --stats --progress /home/sylvain/Config_KDE/ /home/sylvain/local/portage/d2_racing_overlay/Config_KDE 
 
-ln -fn /etc/portage/package.use/iproute2 /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/iproute2
+time rsync -aHA  --del --force --stats --progress /home/sylvain/Config_KDE/ /home/sylvain/local/portage/d2_racing_overlay/Config_Xfce 
 
-ln -fn /etc/portage/package.use/libpng /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/libpng
+time rsync -aHA  --del --force --stats --progress /home/sylvain/.config/openbox/ /home/sylvain/local/portage/d2_racing_overlay/openbox  
 
-ln -fn /etc/portage/package.use/libxml2 /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/libxml2
+ln -fn /etc/make.conf /home/sylvain/local/portage/d2_racing_overlay/Funbox/make.conf
 
-ln -fn /etc/portage/package.use/ntfs /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/ntfs
+ln -fn /home/sylvain/.Xdefaults  /home/sylvain/local/portage/d2_racing_overlay/Funbox/Xdefaults
 
-ln -fn /etc/portage/package.use/openssh /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/openssh
+ln -fn /home/sylvain/.conkyrc /home/sylvain/local/portage/d2_racing_overlay/Funbox/conkyrc
 
-ln -fn /etc/portage/package.use/rxvt-unicode /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/rxvt-unicode
+ln -fn /home/sylvain/.wbar /home/sylvain/local/portage/d2_racing_overlay/Funbox/wbar
 
-ln -fn /etc/portage/package.use/subversion /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/subversion
+ln -fn /etc/slim.conf /home/sylvain/local/portage/d2_racing_overlay/Funbox/slim.conf
 
-ln -fn /etc/portage/package.use/transmission /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/transmission
-
-ln -fn /etc/portage/package.use/virtualbox /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/virtualbox
-
-ln -fn /etc/portage/package.use/vlc /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/vlc
-
-ln -fn /etc/portage/package.use/zlib /home/sylvain/local/portage/d2_racing_overlay/Funbox/package.use/zlib
+ln -fn /home/sylvain/86-hpmud-hp_laserjet_p1505.rules /home/sylvain/local/portage/d2_racing_overlay/Funbox/86-hpmud-hp_laserjet_p1505.rules
