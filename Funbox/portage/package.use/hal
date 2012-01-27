@@ -1,4 +1,0 @@
-# Pour -hal
-x11-base/xorg-server -hal
-gnome-base/gvfs gdu
-sys-block/parted device-mapper 
