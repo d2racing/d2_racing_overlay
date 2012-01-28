@@ -49,3 +49,4 @@ ln -fn /etc/pam.d/system-login  ~/local/portage/d2_racing_overlay/Funbox/system-
 
 ln -fn /var/lib/portage/world  ~/local/portage/d2_racing_overlay/Funbox/world
 
+ln -fn ~/sudoers ~/local/portage/d2_racing_overlay/Funbox/sudoers
