@@ -1,0 +1,154 @@
+# translation of gnome-glossary to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-glossary package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-glossary HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-11 08:42+0000\n"
+"PO-Revision-Date: 2005-03-31 20:55-0700\n"
+"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
+"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"Language: rw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"ULL NAME <EMAIL@ADDRESS>\n"
+
+msgid "Icon"
+msgstr "Agashushondanga"
+
+msgid "Text"
+msgstr "Umwandiko"
+
+msgid "Hot corner"
+msgstr ""
+
+msgid "Close"
+msgstr "Gufunga"
+
+# 89
+
+# Align menu items
+
+# 214
+
+# 361
+
+# 476
+
+# 1227
+
+# the control key
+
+# 1316
+
+# Debug menu items
+
+# 1682
+
+# 2170
+
+# 2808
+
+# 2820
+
+# 3225
+
+# 3348
+
+# 3718
+
+# 3737
+
+# VCARD_LDAP_MODEM_TYPE
+
+# 3916
+
+# 4032
+
+# 4409
+
+# VCARD_LDAP_PARCEL_TYPE
+
+# 4743
+
+# extracted from content/PrefsWindow.xul
+# LOCALIZATION NOTE : FILE UI for the outer parts of the Prefs dialog
+
+# ***** BEGIN LICENSE BLOCK *****
+# - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+# -
+# - The contents of this file are subject to the Mozilla Public License Version
+# - 1.1 (the "License"); you may not use this file except in compliance with
+# - the License. You may obtain a copy of the License at
+# - http://www.mozilla.org/MPL/
+# -
+# - Software distributed under the License is distributed on an "AS IS" basis,
+# - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# - for the specific language governing rights and limitations under the
+# - License.
+# -
+# - The Original Code is the Platform for Privacy Preferences.
+# -
+# - The Initial Developer of the Original Code is
+# - Netscape Communications Corporation.
+# - Portions created by the Initial Developer are Copyright (C) 2002
+# - the Initial Developer. All Rights Reserved.
+# -
+# - Contributor(s): Samir Gehani <sgehani@netscape.com>
+# -                 Harish Dhurvasula <harishd@netscape.com>
+# -
+# - Alternatively, the contents of this file may be used under the terms of
+# - either the GNU General Public License Version 2 or later (the "GPL"), or
+# - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# - in which case the provisions of the GPL or the LGPL are applicable instead
+# - of those above. If you wish to allow use of your version of this file only
+# - under the terms of either the GPL or the LGPL, and not to allow others to
+# - use your version of this file under the terms of the MPL, indicate your
+# - decision by deleting the provisions above and replace them with the notice
+# - and other provisions required by the LGPL or the GPL. If you do not delete
+# - the provisions above, a recipient may use your version of this file under
+# - the terms of any one of the MPL, the GPL or the LGPL.
+# -
+# - ***** END LICENSE BLOCK *****
+
+# 4890
+
+# 4900
+
+# VCARD_LDAP_KEY
+
+# 4970
+
+# 5123
+
+# 5169
+
+# 5214
+
+# 5287
+
+# 5895
+
+# 6064
+
+# there are other error codes, either rare or obsolete,
+# that are not worth translating at this time.
+
+# 6430
+
+# 6474
+
+# 6523
+

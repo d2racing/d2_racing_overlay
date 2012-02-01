@@ -1,0 +1,71 @@
+# translation of kannadaglossary.po to Kannada
+# Copyright (C) 2007 Free Software Foundation, Inc.
+#
+# Vikram Vincent <vincentvikram@swatantra.com>, 2007, 2010.
+# Shankar Prasad <svenkate@redhat.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kannadaglossary\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-11 08:42+0000\n"
+"PO-Revision-Date: 2010-06-13 23:24+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Swatantra Kannada\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "Icon"
+msgstr "ಲಾಂಛನ"
+
+msgid "Text"
+msgstr "ಪಠ್ಯ"
+
+msgid "Hot corner"
+msgstr ""
+
+msgid "Close"
+msgstr "ಮುಚ್ಚು"
+
+# -using literal meaning, since it is more appropriate
+#
+
+# 2. The process during which a client finds out where a server is so that the client can receive services. "
+#
+
+# 2. In HTML, SGML, and XML, a section of a document that contains the content of the document, along with tags describing characteristics of the content."
+#
+
+# 2. In Netscape Navigator, a link to a Web page or other URL that a user has stored in a local file in order to return to it later. "
+#
+
+#  "Any device that performs arithmetic operations on numbers. "
+# -ganaka yantra would be quite similar to computer, hence the change.
+
+# 2. Acronym for Carrier Detect, a signal sent from a modem to the attached computer to indicate that the modem is on line. "
+# , fuzzy
+#
+
+# 2. In communications, a medium for transferring information. Depending on its type, a communications channel can carry information (data, sound, and/or video) in either analog or digi"
+#
+
+# 2. A space in an on-screen form where the user can enter a specific item of information."
+#
+
+#  "The structure or appearance of a unit of data. The arrangement of data within a document file that typically permits the document to be read or written by a certain application. "
+
+# Hot-keys can speed up computer usage. Also known under the name <quote>keyboard shortcut</quote> or <quote>keyboard accelerator</quote>."
+#
+
+#  "1. Software connection between two programs. 2. The UNIX operator
+# -use nalige for former & pipe for latter
+
+#  "An electronic device with two states or a program option that can be turned on or off using the same action, such as a mouse click."
+# -this is the closest, besides being easy for the tongue.
+
+#  "A particular issue or release of a hardware product or software title."
+# avruthi translates to edition & 'how many times or sala'.
+
