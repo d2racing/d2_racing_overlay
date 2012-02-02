@@ -20,14 +20,17 @@ cp -a /boot/System* ~/local/portage/d2_racing_overlay/Funbox/boot/
 
 time rsync -aHA  --del --force --stats --progress ~/Images/ ~/local/portage/d2_racing_overlay/Images 
 
+
+time rsync -aHA  --del --force --stats --progress ~/Config_Gnome/ ~/local/portage/d2_racing_overlay/Config_Gnome
+
 time rsync -aHA  --del --force --stats --progress ~/Config_KDE/ ~/local/portage/d2_racing_overlay/Config_KDE 
 time rsync -aHA  --del --force --stats --progress ~/Config_Razor-qt/ ~/local/portage/d2_racing_overlay/Config_Razor-qt 
 time rsync -aHA  --del --force --stats --progress ~/Config_Xfce/ ~/local/portage/d2_racing_overlay/Config_Xfce 
 
 
-time rsync -aHA  --del --force --stats --progress ~/Config_Openbox/ ~/local/portage/d2_racing_overlay/Config_Openbox 
+# time rsync -aHA  --del --force --stats --progress ~/Config_Openbox/ ~/local/portage/d2_racing_overlay/Config_Openbox 
 
-time rsync -aHA  --del --force --stats --progress ~/.config/openbox/ ~/local/portage/d2_racing_overlay/Config_Openbox/openbox  
+# time rsync -aHA  --del --force --stats --progress ~/.config/openbox/ ~/local/portage/d2_racing_overlay/Config_Openbox/openbox  
 
 ln -fn ~/.Xdefaults  ~/local/portage/d2_racing_overlay/Config_Openbox/Xdefaults
 
@@ -35,7 +38,7 @@ ln -fn ~/.conkyrc ~/local/portage/d2_racing_overlay/Config_Openbox/conkyrc
 
 ln -fn ~/.wbar ~/local/portage/d2_racing_overlay/Config_Openbox/wbar
 
-ln -fn /etc/slim.conf ~/local/portage/d2_racing_overlay/Config_Openbox/slim.conf
+# ln -fn /etc/slim.conf ~/local/portage/d2_racing_overlay/Config_Openbox/slim.conf
 
 ln -fn ~/86-hpmud-hp_laserjet_p1505.rules ~/local/portage/d2_racing_overlay/Funbox/86-hpmud-hp_laserjet_p1505.rules
 
