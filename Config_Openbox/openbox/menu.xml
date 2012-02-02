@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	
+          <menu id="desktop-app-menu" label="Applications" execute="/usr/bin/openbox-menu /etc/xdg/menus/lxde-applications.menu"/>
+          <menu id="root-menu" label="Openbox 3">
+		<separator/>
+
+                <menu id="desktop-app-menu" label="Applications"/>
+                <separator/>
+
+		<item label="Audacious">
+			<action name="Execute">
+				<execute>
+					audacious
+				</execute>
+			</action>
+		</item>
+		<item label="Chromium">
+			<action name="Execute">
+				<execute>
+					chromium
+				</execute>
+			</action>
+		</item>
+		<item label="Gftp">
+			<action name="Execute">
+				<execute>
+					gftp
+				</execute>
+			</action>
+		</item>
+		<item label="Leafpad">
+			<action name="Execute">
+				<execute>
+					leafpad
+				</execute>
+			</action>
+		</item>
+		<item label="Mumble">
+			<action name="Execute">
+				<execute>
+					mumble
+				</execute>
+			</action>
+		</item>
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>
+					Terminal
+				</execute>
+			</action>
+		</item>
+		<item label="Thunar">
+			<action name="Execute">
+				<execute>
+					thunar
+				</execute>
+			</action>
+		</item>
+		<item label="Sylpheed">
+			<action name="Execute">
+				<execute>
+					sylpheed
+				</execute>
+			</action>
+		</item>
+		<item label="Vlc">
+			<action name="Execute">
+				<execute>
+					vlc
+				</execute>
+			</action>
+		</item>
+		<item label="Irssi">
+			<action name="Execute">
+				<execute>
+					urxvt -e irssi -c freenode
+				</execute>
+			</action>
+		</item>
+		<item label="Urxvt">
+			<action name="Execute">
+				<execute>
+					urxvt
+				</execute>
+			</action>
+		</item>
+		<separator/>
+		
+		<menu id="Accessoires" label="Accessoires">
+			<item label="Evince">
+				<action name="Execute">
+					<execute>
+						evince
+					</execute>
+				</action>
+			</item>
+			<item label="file-roller">
+				<action name="Execute">
+					<execute>
+						file-roller
+					</execute>
+				</action>
+			</item>
+			<item label="Leafpad">
+				<action name="Execute">
+					<execute>
+						leafpad
+					</execute>
+				</action>
+			</item>
+			<item label="LXTerminal">
+				<action name="Execute">
+					<execute>
+						lxterminal
+					</execute>
+				</action>
+			</item>
+		</menu>
+
+                <menu id="Bureautique" label="Bureautique">
+			<item label="Calculatrice">
+				<action name="Execute">
+					<execute>
+						galculator
+					</execute>
+				</action>
+			</item>
+			<item label="LibreOffice">
+				<action name="Execute">
+					<execute>
+						/usr/lib/libreoffice/program/soffice
+					</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Calc">
+				<action name="Execute">
+					<execute>
+						/usr/lib/libreoffice/program/scalc
+					</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Impress">
+				<action name="Execute">
+					<execute>
+						/usr/lib/libreoffice/program/simpress
+					</execute>
+				</action>
+			</item>
+			<item label="LibreOffice Writer">
+				<action name="Execute">
+					<execute>
+						/usr/lib/libreoffice/program/swriter
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Graphique" label="Graphique">
+			<item label="GIMP">
+				<action name="Execute">
+					<execute>
+						gimp
+					</execute>
+				</action>
+			</item>
+			<menu id="Screenshots" label="Screenshot">
+				<item label="Maintenant">
+					<action name="Execute">
+						<execute>
+							scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; geeqie ~/$f'
+						</execute>
+					</action>
+				</item>
+				<item label="Dans 5 Secondes...">
+					<action name="Execute">
+						<execute>
+							scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; geeqie ~/$f'
+						</execute>
+					</action>
+				</item>
+				<item label="Dans 10 Secondes...">
+					<action name="Execute">
+						<execute>
+							scrot -d 10 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; geeqie ~/$f'
+						</execute>
+					</action>
+				</item>
+				<item label="Endroit precis... (click &amp; drag mouse)">
+					<action name="Execute">
+						<execute>
+							scrot -s '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/ &amp; geeqie ~/$f'
+						</execute>
+					</action>
+				</item>
+			</menu>
+		</menu>
+		<menu id="Internet" label="Internet">
+			<item label="Amsn">
+				<action name="Execute">
+					<execute>
+						amsn
+					</execute>
+				</action>
+			</item>
+			<item label="Chromium Web Browser">
+				<action name="Execute">
+					<execute>
+						chromium
+					</execute>
+				</action>
+			</item>
+			<item label="Gftp">
+				<action name="Execute">
+					<execute>
+						gftp
+					</execute>
+				</action>
+			</item>
+			<item label="Irssi">
+				<action name="Execute">
+					<execute>
+						urxvt -e irssi -c freenode
+					</execute>
+				</action>
+			</item>
+			<item label="Sylpheed">
+				<action name="Execute">
+					<execute>
+						sylpheed
+					</execute>
+				</action>
+			</item>
+			<item label="Transmission">
+				<action name="Execute">
+					<execute>
+						transmission-gtk
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Multimédia" label="Multimédia">
+			<item label="Alsamixer">
+				<action name="Execute">
+					<execute>
+						terminal -e &quot;alsamixer&quot;
+					</execute>
+				</action>
+			</item>
+			<item label="SMPlayer">
+				<action name="Execute">
+					<execute>
+						smplayer
+					</execute>
+				</action>
+			</item>
+			<item label="VLC">
+				<action name="Execute">
+					<execute>
+						vlc
+					</execute>
+				</action>
+			</item>
+			<item label="Xfburn">
+				<action name="Execute">
+					<execute>
+						xfburn
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Vbox" label="Vbox">
+			<item label="Virtualbox">
+				<action name="Execute">
+					<execute>
+						/usr/lib64/virtualbox/VirtualBox
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="Configuration" label="Configuration">
+			<menu id="Effects" label="Effects 3D">
+				<item label="Pas effets">
+					<action name="Execute">
+						<execute>
+							~/.config/openbox/scripts/xcompmgr.sh unset
+						</execute>
+					</action>
+				</item>
+				<item label="Transparent">
+					<action name="Execute">
+						<execute>
+							~/.config/openbox/scripts/xcompmgr.sh set
+						</execute>
+					</action>
+				</item>
+				<item label="Transparent, fading">
+					<action name="Execute">
+						<execute>
+							~/.config/openbox/scripts/xcompmgr.sh setshaded
+						</execute>
+					</action>
+				</item>
+				<item label="Transparent, fading shadows">
+					<action name="Execute">
+						<execute>
+							~/.config/openbox/scripts/xcompmgr.sh setshadowshade
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="Conky" label="Config Conky">
+				<item label="Edit .conkyrc">
+					<action name="Execute">
+						<execute>
+							leafpad ~/.conkyrc
+						</execute>
+					</action>
+				</item>
+				<item label="Conky">
+					<action name="Execute">
+						<execute>
+							conky &amp;
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="Obconfig" label="Openbox Config">
+				<item label="Edit autostart">
+					<action name="Execute">
+						<execute>
+							leafpad ~/.config/openbox/autostart
+						</execute>
+					</action>
+				</item>
+				<item label="Key Editor">
+					<action name="Execute">
+						<execute>
+							obkey
+						</execute>
+					</action>
+				</item>
+				<item label="Reconfigure">
+					<action name="Reconfigure"/>
+				</item>
+				<item label="Restart">
+					<action name="Restart"/>
+				</item>
+			</menu>
+			<menu id="Tint2" label="Tint2 Config">
+				<item label="tint2 Panel Config">
+					<action name="Execute">
+						<execute>
+							leafpad ~/.config/tint2/tint2rc
+						</execute>
+					</action>
+				</item>
+				<item label="Tint Wizard">
+					<action name="Execute">
+						<execute>
+							tintwizard
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Edit /etc/rc.conf">
+				<action name="Execute">
+					<execute>
+						gksu leafpad /etc/rc.conf
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Lxappearance">
+			<action name="Execute">
+				<execute>
+					lxappearance
+				</execute>
+			</action>
+		</item>
+		<item label="Obmenu">
+			<action name="Execute">
+				<execute>
+					obmenu
+				</execute>
+			</action>
+		</item>
+		<item label="Obconfig">
+			<action name="Execute">
+				<execute>
+					obconf
+				</execute>
+			</action>
+		</item>
+		<item label="Nitrogen">
+			<action name="Execute">
+				<execute>
+					nitrogen
+				</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="Lock">
+			<action name="Execute">
+				<execute>
+					xscreensaver-command -lock
+				</execute>
+			</action>
+		</item>
+		<item label="Reboot">
+			<action name="Execute">
+				<execute>
+					sudo /sbin/reboot
+				</execute>
+			</action>
+		</item>
+		<item label="Poweroff">
+			<action name="Execute">
+				<execute>
+					sudo /sbin/poweroff
+				</execute>
+			</action>
+		</item>
+		<item label="Oblogout">
+			<action name="Execute">
+				<execute>
+					oblogout
+				</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>
