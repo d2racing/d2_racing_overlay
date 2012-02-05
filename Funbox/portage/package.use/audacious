@@ -1,2 +1,2 @@
-media-sound/audacious flac 
-media-plugins/audacious-plugins flac
+media-sound/audacious flac -gtk gtk3
+media-plugins/audacious-plugins flac -gtk gtk3
