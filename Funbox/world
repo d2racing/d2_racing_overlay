@@ -9,6 +9,7 @@ app-portage/genlop
 app-portage/gentoolkit
 app-text/evince
 app-text/wgetpaste
+dev-lang/python:2.7
 gnome-base/gnome
 gnome-extra/gnome-shell-extensions
 gnome-extra/gnome-shell-frippery
