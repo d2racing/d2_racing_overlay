@@ -30,6 +30,7 @@ net-im/amsn
 net-irc/irssi
 net-misc/dhcpcd
 net-p2p/transmission
+net-p2p/tribler
 net-print/hplip
 sys-apps/hdparm
 sys-apps/lm_sensors
