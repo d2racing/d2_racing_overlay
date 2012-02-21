@@ -22,10 +22,9 @@ media-video/mplayer
 media-video/smplayer
 media-video/vlc
 net-ftp/gftp
-net-im/amsn
+net-im/pidgin
 net-irc/irssi
 net-p2p/transmission
-net-p2p/tribler
 net-print/hplip
 sys-apps/hdparm
 sys-apps/lm_sensors
