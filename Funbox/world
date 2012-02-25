@@ -24,6 +24,7 @@ media-video/vlc
 net-ftp/gftp
 net-im/pidgin
 net-irc/irssi
+net-misc/youtube-dl
 net-p2p/transmission
 net-print/hplip
 sys-apps/hdparm
