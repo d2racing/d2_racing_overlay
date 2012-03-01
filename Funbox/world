@@ -1,7 +1,7 @@
 app-admin/metalog
 app-admin/sudo
 app-editors/vim
-app-emulation/virtualbox
+app-emulation/qemu-kvm
 app-office/libreoffice-bin
 app-portage/eix
 app-portage/elogv
