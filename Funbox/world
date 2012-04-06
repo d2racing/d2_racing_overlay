@@ -30,6 +30,7 @@ net-print/hplip
 sys-apps/hdparm
 sys-apps/lm_sensors
 sys-apps/mlocate
+sys-apps/portage
 sys-apps/usbutils
 sys-boot/boot-update
 sys-boot/grub
@@ -38,7 +39,7 @@ sys-fs/ntfs3g
 sys-kernel/git-sources
 sys-process/htop
 sys-process/vixie-cron
-www-client/chromium
+www-client/firefox
 www-plugins/adobe-flash
 x11-apps/mesa-progs
 x11-base/xorg-x11

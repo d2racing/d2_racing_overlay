@@ -1,7 +1,0 @@
-=sys-devel/gcc-4.6.2
-=sys-devel/binutils-2.21.1-r1
-=sys-devel/libtool-2.4-r4
-=sys-kernel/linux-headers-2.6.39
-=sys-libs/glibc-2.13-r4
-=sys-fs/udev-171-r1
-
