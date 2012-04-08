@@ -9,6 +9,8 @@ time rsync -aHA  --del --force --stats --progress /etc/portage/package.mask   ~/
 
 time rsync -aHA  --del --force --stats --progress /etc/portage/package.unmask ~/local/portage/d2_racing_overlay/Funbox/portage
 
+time rsync -aHA  --del --force --stats --progress /etc/portage/package.accept_keywords  ~/local/portage/d2_racing_overlay/Funbox/portage
+
 ln -fn /etc/portage/package.license ~/local/portage/d2_racing_overlay/Funbox/portage/package.license
 
 time rsync -aHA  --del --force --stats --progress /etc/X11/xorg.conf.d/ ~/local/portage/d2_racing_overlay/Funbox/xorg.conf.d
@@ -47,8 +49,6 @@ ln -fn /etc/make.conf ~/local/portage/d2_racing_overlay/Funbox/make.conf
 ln -fn /etc/fstab ~/local/portage/d2_racing_overlay/Funbox/fstab
 
 ln -fn /etc/boot.conf ~/local/portage/d2_racing_overlay/Funbox/boot.conf
-
-ln -fn /etc/pam.d/system-login  ~/local/portage/d2_racing_overlay/Funbox/system-login
 
 ln -fn /var/lib/portage/world  ~/local/portage/d2_racing_overlay/Funbox/world
 
