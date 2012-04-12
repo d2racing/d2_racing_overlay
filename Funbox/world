@@ -39,7 +39,7 @@ sys-fs/ntfs3g
 sys-kernel/git-sources
 sys-process/htop
 sys-process/vixie-cron
-www-client/firefox
+www-client/google-chrome
 www-plugins/adobe-flash
 x11-apps/mesa-progs
 x11-base/xorg-x11
