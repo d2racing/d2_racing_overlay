@@ -24,9 +24,11 @@ media-video/vlc
 net-ftp/gftp
 net-im/pidgin
 net-irc/irssi
+net-misc/vde
 net-misc/youtube-dl
 net-p2p/transmission
 net-print/hplip
+sys-apps/bleachbit
 sys-apps/hdparm
 sys-apps/lm_sensors
 sys-apps/mlocate
