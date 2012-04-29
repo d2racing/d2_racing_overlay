@@ -52,4 +52,6 @@ ln -fn /etc/boot.conf ~/local/portage/d2_racing_overlay/Funbox/boot.conf
 
 ln -fn /var/lib/portage/world  ~/local/portage/d2_racing_overlay/Funbox/world
 
+ln -fn /etc/conf.d/modules ~/local/portage/d2_racing_overlay/Funbox/modules
+
 ln -fn ~/sudoers ~/local/portage/d2_racing_overlay/Funbox/sudoers
