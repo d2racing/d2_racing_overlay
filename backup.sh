@@ -15,6 +15,9 @@ ln -fn /etc/portage/package.license ~/local/portage/d2_racing_overlay/Funbox/por
 
 time rsync -aHA  --del --force --stats --progress /etc/X11/xorg.conf.d/ ~/local/portage/d2_racing_overlay/Funbox/xorg.conf.d
 
+ln -fn /etc/X11/xorg.conf ~/local/portage/d2_racing_overlay/Funbox/xorg.conf.d/xorg.conf
+
+
 cp -a /boot/grub/grub.cfg ~/local/portage/d2_racing_overlay/Funbox/boot/
 cp -a /boot/config* ~/local/portage/d2_racing_overlay/Funbox/boot/
 cp -a /boot/System* ~/local/portage/d2_racing_overlay/Funbox/boot/
