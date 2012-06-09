@@ -24,6 +24,7 @@ media-sound/mumble
 media-video/mplayer
 media-video/smplayer
 media-video/vlc
+net-analyzer/iftop
 net-ftp/gftp
 net-im/pidgin
 net-irc/irssi
@@ -39,9 +40,8 @@ sys-apps/portage
 sys-apps/usbutils
 sys-boot/boot-update
 sys-boot/grub
-sys-fs/btrfs-progs
 sys-fs/ntfs3g
-sys-kernel/git-sources
+sys-kernel/vanilla-sources
 sys-process/htop
 sys-process/vixie-cron
 www-client/google-chrome
