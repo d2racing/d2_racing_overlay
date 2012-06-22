@@ -9,6 +9,7 @@ app-portage/elogv
 app-portage/genlop
 app-portage/gentoolkit
 app-text/wgetpaste
+dev-vcs/git
 gnome-base/gnome
 gnome-extra/gnome-documents
 gnome-extra/gnome-shell-extensions
