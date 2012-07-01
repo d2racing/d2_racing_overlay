@@ -1,6 +1,6 @@
 qemu-img create -f qcow2 -o preallocation=metadata disque.img 20G
 
-qemu-kvm -hda ~/vms/disque.img -m 2048 -cdrom /mnt/pont/systemrescuecd-x86-2.8.0.iso -boot d -usb -net nic,macaddr=00:ff:00:ff:00:ff -net user -smp cores=3 -cpu core2duo 
+qemu-kvm -hda ~/vms/disque.img -m 2048 -cdrom /mnt/pont/systemrescuecd-x86-2.7.0.iso -boot d -usb -net nic,macaddr=00:ff:00:ff:00:ff -net user -smp cores=3 -cpu core2duo 
 --soundhw hda 
 
 qemu-kvm -hda ~/vms/disque.img -m 2048 -usb -net nic,macaddr=00:ff:00:ff:00:ff -net vde -smp cores=3 -cpu core2duo --soundhw hda 
