@@ -11,7 +11,7 @@ time rsync -aHA  --del --force --stats --progress /etc/portage/package.unmask ~/
 
 time rsync -aHA  --del --force --stats --progress /etc/portage/package.accept_keywords  ~/local/portage/d2_racing_overlay/Funbox/portage
 
-time rsync -aHA  --del --force --stats --progress ~/vms  ~/local/portage/d2_racing_overlay/Funbox/vms
+time rsync -aHA  --del --force --stats --progress ~/vms/  ~/local/portage/d2_racing_overlay/Funbox/vms
 
 ln -fn /etc/portage/package.license ~/local/portage/d2_racing_overlay/Funbox/portage/package.license
 
