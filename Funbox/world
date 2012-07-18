@@ -18,6 +18,7 @@ gnome-extra/sushi
 mail-client/sylpheed
 media-fonts/ubuntu-font-family
 media-gfx/gimp
+media-libs/fontconfig
 media-plugins/audacious-plugins
 media-sound/alsa-utils
 media-sound/audacious
@@ -49,6 +50,7 @@ www-client/google-chrome
 www-plugins/adobe-flash
 x11-apps/mesa-progs
 x11-base/xorg-x11
+x11-libs/cairo
 x11-themes/greybird
 x11-themes/zukitwo
 x11-wm/twm
