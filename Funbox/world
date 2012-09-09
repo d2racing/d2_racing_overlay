@@ -39,9 +39,11 @@ sys-apps/hdparm
 sys-apps/lm_sensors
 sys-apps/mlocate
 sys-apps/portage
+sys-apps/smartmontools
 sys-apps/usbutils
 sys-boot/boot-update
 sys-boot/grub
+sys-fs/btrfs-progs
 sys-fs/ntfs3g
 sys-kernel/vanilla-sources
 sys-process/htop
