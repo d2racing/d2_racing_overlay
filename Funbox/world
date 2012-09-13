@@ -12,6 +12,8 @@ app-text/wgetpaste
 dev-vcs/git
 gnome-base/gnome
 gnome-extra/gnome-documents
+gnome-extra/gnome-shell-extensions
+gnome-extra/gnome-shell-frippery
 gnome-extra/sushi
 mail-client/sylpheed
 media-fonts/ubuntu-font-family
