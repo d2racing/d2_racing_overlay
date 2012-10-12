@@ -1,5 +1,6 @@
 app-admin/metalog
 app-admin/sudo
+app-arch/p7zip
 app-editors/vim
 app-emulation/qemu-kvm
 app-emulation/virtualbox

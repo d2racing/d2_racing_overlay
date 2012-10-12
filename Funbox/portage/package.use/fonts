@@ -1,5 +1,5 @@
-media-libs/fontconfig -cleartype lcdfilter
-media-libs/freetype -bindist -cleartype lcdfilter
-x11-libs/cairo -cleartype lcdfilter
-x11-libs/libXft -cleartype lcdfilter
+#media-libs/fontconfig -cleartype lcdfilter
+#media-libs/freetype -bindist -cleartype lcdfilter
+#x11-libs/cairo -cleartype lcdfilter
+#x11-libs/libXft -cleartype lcdfilter
 
