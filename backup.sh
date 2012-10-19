@@ -10,9 +10,9 @@ time rsync -aHA  --del --force --stats --progress /etc/portage/package.license  
 
 time rsync -aHA  --del --force --stats --progress /etc/X11/xorg.conf.d/ ~/local/portage/d2_racing_overlay/Genbox/xorg.conf.d
 
-#cp -a /boot/grub/grub.cfg ~/local/portage/d2_racing_overlay/Funbox/boot/
-#cp -a /boot/config* ~/local/portage/d2_racing_overlay/Funbox/boot/
-#cp -a /boot/System* ~/local/portage/d2_racing_overlay/Funbox/boot/
+cp -a ~/grub.cfg ~/local/portage/d2_racing_overlay/Genbox/boot/
+cp -a ~/config-* ~/local/portage/d2_racing_overlay/Genbox/boot/
+cp -a ~/System.* ~/local/portage/d2_racing_overlay/Genbox/boot/
 #
 #
 #time rsync -aHA  --del --force --stats --progress ~/Images/ ~/local/portage/d2_racing_overlay/Images 
