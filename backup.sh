@@ -15,6 +15,8 @@ cp -a ~/config-* ~/local/portage/d2_racing_overlay/Genbox/boot/
 cp -a ~/System.* ~/local/portage/d2_racing_overlay/Genbox/boot/
 
 cp -a /etc/fstab ~/local/portage/d2_racing_overlay/Genbox/
+cp -a /etc/portage/make.conf ~/local/portage/d2_racing_overlay/Genbox/portage/
+
 #
 #
 #time rsync -aHA  --del --force --stats --progress ~/Images/ ~/local/portage/d2_racing_overlay/Images 
