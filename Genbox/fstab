@@ -1,15 +1,6 @@
-# <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
-/dev/sda7               /boot           ext4            noauto,noatime    1 2
-/dev/sda8               /               ext4            defaults,noatime  0 1
-/dev/sda9               none            swap            sw                0 0
-
-# /dev/sda10              /mnt/rescue     ext4            defaults,noauto,noatime 0 2   
-
-#
-none                    /dev/shm        tmpfs           nodev,nosuid,noexec 0 0
-/dev/sda1               /mnt/win_c      ntfs            defaults,ro,user,nls=iso8859-1,nls=utf8,umask=0 0 0
-/dev/sda2               /mnt/win_d      ntfs            defaults,ro,user,nls=iso8859-1,nls=utf8,umask=0 0 0
-/dev/sda5               /mnt/win_e      ntfs            defaults,ro,user,nls=iso8859-1,nls=utf8,umask=0 0 0
-/dev/sda6               /mnt/pont       vfat            defaults,rw,user,umask=0 0 0
-# shm			/dev/shm	tmpfs		nodev,nosuid,noexec	0 0
+/dev/sda3      /boot            ext2       noauto,noatime,defaults                     1 2
+/dev/sda1      /boot/efi        vfat       noauto,defaults                             0 0
+/dev/sda4      /                btrfs      defaults,noatime,ssd,discard,subvol=@racine 0 1
+tmpfs          /var/tmp/portage tmpfs      size=12G                                    0 0
+none           /dev/shm         tmpfs      nodev,nosuid,noexec                         0 0
 

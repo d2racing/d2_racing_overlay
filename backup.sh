@@ -13,6 +13,8 @@ time rsync -aHA  --del --force --stats --progress /etc/X11/xorg.conf.d/ ~/local/
 cp -a ~/grub.cfg ~/local/portage/d2_racing_overlay/Genbox/boot/
 cp -a ~/config-* ~/local/portage/d2_racing_overlay/Genbox/boot/
 cp -a ~/System.* ~/local/portage/d2_racing_overlay/Genbox/boot/
+
+cp -a /etc/fstab ~/local/portage/d2_racing_overlay/Genbox/
 #
 #
 #time rsync -aHA  --del --force --stats --progress ~/Images/ ~/local/portage/d2_racing_overlay/Images 
