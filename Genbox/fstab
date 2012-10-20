@@ -1,8 +1,10 @@
 /dev/sda3      /boot            ext2       noauto,noatime,defaults                     1 2
 /dev/sda1      /boot/efi        vfat       noauto,defaults                             0 0
-/dev/sda4      /                btrfs      defaults,noatime,ssd,discard,subvol=@racine 0 1
+/dev/sda4      /                btrfs      defaults,noatime,ssd,discard,compress=lzo,subvol=@racine 0 1
 tmpfs          /var/tmp/portage tmpfs      size=12G                                    0 0
+
 none           /dev/shm         tmpfs      nodev,nosuid,noexec                         0 0
-devpts         /dev/pts         devpts     defaults                                    0 0
+
 /dev/sdb2      /mnt/win_c       ntfs       defaults,ro,user,nls=iso8859-1,nls=utf8,umask=0 0 0
 /dev/sdc2      /mnt/win_d       ntfs       defaults,ro,user,nls=iso8859-1,nls=utf8,umask=0 0 0
+

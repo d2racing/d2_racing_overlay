@@ -1,4 +1,5 @@
 app-admin/metalog
+app-admin/sudo
 app-arch/xarchiver
 app-cdr/xfburn
 app-editors/leafpad
@@ -13,6 +14,7 @@ app-portage/gentoolkit
 app-text/evince
 app-text/wgetpaste
 dev-vcs/git
+gnome-extra/polkit-gnome
 mail-client/sylpheed
 media-gfx/gimp
 media-gfx/mirage
