@@ -22,10 +22,17 @@ sudo cp /var/lib/portage/world ~/local/portage/d2_racing_overlay/Genbox/
 sudo chown sylvain:sylvain ~/local/portage/d2_racing_overlay/Genbox/world
 
 cp /etc/fstab ~/local/portage/d2_racing_overlay/Genbox/
+sudo chown sylvain:sylvain ~/local/portage/d2_racing_overlay/Genbox/fstab
+
 cp /etc/portage/make.conf ~/local/portage/d2_racing_overlay/Genbox/portage/
-sudo cp /var/lib/portage/world ~/local/portage/d2_racing_overlay/Genbox/
+sudo chown sylvain:sylvain ~/local/portage/d2_racing_overlay/Genbox/portage/make.conf
+
+sudo cp /etc/sudoers ~/local/portage/d2_racing_overlay/Genbox/sudoers
+sudo chown sylvain:sylvain ~/local/portage/d2_racing_overlay/Genbox/sudoers
 
 time rsync -aHA  --del --force --stats --progress ~/Config_Xfce/ ~/local/portage/d2_racing_overlay/Genbox/Config_Xfce 
+
+
 
 
 #
