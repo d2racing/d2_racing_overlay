@@ -16,6 +16,8 @@ cp -a ~/System.* ~/local/portage/d2_racing_overlay/Genbox/boot/
 
 cp -a /etc/fstab ~/local/portage/d2_racing_overlay/Genbox/
 cp -a /etc/portage/make.conf ~/local/portage/d2_racing_overlay/Genbox/portage/
+cp -a ~/world ~/local/portage/d2_racing_overlay/Genbox/
+
 
 #
 #
