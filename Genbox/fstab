@@ -4,3 +4,5 @@
 tmpfs          /var/tmp/portage tmpfs      size=12G                                    0 0
 none           /dev/shm         tmpfs      nodev,nosuid,noexec                         0 0
 devpts         /dev/pts         devpts     defaults                                    0 0
+/dev/sdb2      /mnt/win_c       ntfs       defaults,ro,user,nls=iso8859-1,nls=utf8,umask=0 0 0
+/dev/sdc2      /mnt/win_d       ntfs       defaults,ro,user,nls=iso8859-1,nls=utf8,umask=0 0 0
