@@ -10,12 +10,13 @@ time rsync -aHA  --del --force --stats --progress /etc/portage/package.license  
 
 time rsync -aHA  --del --force --stats --progress /etc/X11/xorg.conf.d/ ~/local/portage/d2_racing_overlay/Genbox/xorg.conf.d
 
+sudo rsync -aHA  --del --force --stats --progress /boot/grub2/grub.cfg ~/local/portage/d2_racing_overlay/Genbox/boot/
+sudo chown sylvain:sylvain ~/local/portage/d2_racing_overlay/Genbox/boot/grub.cfg
 
-sudo time rsync -aHA  --del --force --stats --progress /boot/grub2/grub.cfg ~/local/portage/d2_racing_overlay/Genbox/boot
+sudo rsync -aHA  --del --force --stats --progress /boot/config-* ~/local/portage/d2_racing_overlay/Genbox/boot/
+sudo rsync -aHA  --del --force --stats --progress /boot/System.* ~/local/portage/d2_racing_overlay/Genbox/boot/
 
-#sudo cp /boot/grub2/grub.cfg ~/local/portage/d2_racing_overlay/Genbox/boot/
-#sudo cp /boot/config-* ~/local/portage/d2_racing_overlay/Genbox/boot/
-#sudo cp /boot/System.* ~/local/portage/d2_racing_overlay/Genbox/boot/
+
 
 #cp /etc/fstab ~/local/portage/d2_racing_overlay/Genbox/
 #cp /etc/portage/make.conf ~/local/portage/d2_racing_overlay/Genbox/portage/
