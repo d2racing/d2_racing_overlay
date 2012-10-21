@@ -30,7 +30,7 @@ sudo chown sylvain:sylvain ~/local/portage/d2_racing_overlay/Genbox/portage/make
 sudo cp /etc/sudoers ~/local/portage/d2_racing_overlay/Genbox/sudoers
 sudo chown sylvain:sylvain ~/local/portage/d2_racing_overlay/Genbox/sudoers
 
-time rsync -aHA  --del --force --stats --progress ~/Config_Xfce/ ~/local/portage/d2_racing_overlay/Genbox/Config_Xfce 
+time rsync -aHA  --del --force --stats --progress ~/Config_Xfce/ ~/local/portage/d2_racing_overlay/Config_Xfce 
 
 
 
