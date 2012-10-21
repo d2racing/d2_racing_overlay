@@ -16,6 +16,7 @@ app-text/wgetpaste
 dev-vcs/git
 gnome-extra/polkit-gnome
 mail-client/sylpheed
+media-fonts/ubuntu-font-family
 media-gfx/gimp
 media-gfx/mirage
 media-sound/alsa-utils
