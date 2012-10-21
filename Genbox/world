@@ -44,6 +44,8 @@ x11-apps/xclock
 x11-base/xorg-x11
 x11-terms/terminal
 x11-terms/xterm
+x11-themes/greybird
+x11-themes/gtk-engines-xfce
 x11-wm/twm
 xfce-base/xfce4-meta
 xfce-extra/thunar-volman
