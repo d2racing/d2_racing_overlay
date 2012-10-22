@@ -38,6 +38,7 @@ sys-fs/btrfs-progs
 sys-fs/ntfs3g
 sys-kernel/vanilla-sources
 sys-process/htop
+sys-process/lsof
 sys-process/vixie-cron
 www-client/google-chrome
 x11-apps/mesa-progs
