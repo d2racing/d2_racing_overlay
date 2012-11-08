@@ -1,1 +1,1 @@
-#net-print/hplip -policykit -acl
+net-print/hplip -policykit -acl -hpijs
