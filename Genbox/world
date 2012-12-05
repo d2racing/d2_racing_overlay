@@ -35,6 +35,7 @@ net-p2p/transmission
 net-print/hplip
 sys-apps/hdparm
 sys-apps/mlocate
+sys-apps/portage
 sys-boot/grub
 sys-fs/btrfs-progs
 sys-fs/ntfs3g
