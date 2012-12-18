@@ -33,6 +33,7 @@ net-misc/dhcpcd
 net-misc/youtube-dl
 net-p2p/transmission
 net-print/hplip
+sys-apps/dstat
 sys-apps/hdparm
 sys-apps/mlocate
 sys-apps/portage

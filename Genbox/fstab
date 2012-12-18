@@ -1,6 +1,9 @@
 /dev/sda3      /boot            ext2       noauto,noatime,defaults                     1 2
 /dev/sda1      /boot/efi        vfat       noauto,defaults                             0 0
-/dev/sda4      /                btrfs      defaults,noatime,ssd,discard,compress=lzo,subvol=@racine 0 1
+/dev/sda4      /                btrfs      defaults,noatime,ssd,compress=lzo,subvol=@racine 0 1
+
+#/dev/sda4      /                btrfs      defaults,noatime,ssd,discard,compress=lzo,subvol=@racine 0 1
+
 tmpfs          /var/tmp/portage tmpfs      size=12G                                    0 0
 
 none           /dev/shm         tmpfs      nodev,nosuid,noexec                         0 0
