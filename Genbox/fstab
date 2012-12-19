@@ -1,6 +1,6 @@
 /dev/sda3      /boot            ext2       noauto,noatime,defaults                     1 2
 /dev/sda1      /boot/efi        vfat       noauto,defaults                             0 0
-/dev/sda4      /                btrfs      defaults,noatime,ssd,compress=lzo,subvol=@racine 0 1
+/dev/sda4      /                ext4       defaults,noatime,discard                    0 1
 
 #/dev/sda4      /                btrfs      defaults,noatime,ssd,discard,compress=lzo,subvol=@racine 0 1
 
