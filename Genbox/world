@@ -44,7 +44,7 @@ sys-kernel/vanilla-sources
 sys-process/htop
 sys-process/lsof
 sys-process/vixie-cron
-www-client/google-chrome
+www-client/google-chrome:stable
 x11-apps/mesa-progs
 x11-apps/xclock
 x11-base/xorg-x11
