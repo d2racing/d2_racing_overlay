@@ -41,6 +41,7 @@ sys-boot/grub
 sys-fs/btrfs-progs
 sys-fs/ntfs3g
 sys-kernel/vanilla-sources
+sys-power/cpufrequtils
 sys-process/htop
 sys-process/lsof
 sys-process/vixie-cron
