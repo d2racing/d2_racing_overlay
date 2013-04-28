@@ -6,7 +6,6 @@ app-cdr/xfburn
 app-editors/leafpad
 app-editors/nano
 app-editors/vim
-app-emulation/virtualbox
 app-office/libreoffice
 app-portage/eix
 app-portage/elogv
