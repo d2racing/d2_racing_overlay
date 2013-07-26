@@ -35,7 +35,6 @@ net-print/hplip
 sys-apps/dstat
 sys-apps/hdparm
 sys-apps/mlocate
-sys-apps/portage
 sys-apps/usbutils
 sys-boot/grub
 sys-fs/btrfs-progs
