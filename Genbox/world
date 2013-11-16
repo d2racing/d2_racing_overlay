@@ -1,7 +1,6 @@
 app-admin/logrotate
 app-admin/metalog
 app-admin/sudo
-app-arch/xarchiver
 app-cdr/xfburn
 app-editors/leafpad
 app-editors/nano
