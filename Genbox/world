@@ -43,7 +43,7 @@ sys-power/cpufrequtils
 sys-process/htop
 sys-process/lsof
 sys-process/vixie-cron
-www-client/google-chrome:stable
+www-client/google-chrome
 x11-apps/mesa-progs
 x11-apps/xclock
 x11-base/xorg-x11
