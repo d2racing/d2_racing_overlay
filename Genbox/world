@@ -21,6 +21,7 @@ media-gfx/gimp
 media-gfx/mirage
 media-sound/alsa-utils
 media-sound/audacious
+media-sound/ogg2mp3
 media-video/mplayer
 media-video/parole
 media-video/vlc
@@ -34,6 +35,7 @@ net-print/hplip
 sys-apps/dstat
 sys-apps/hdparm
 sys-apps/mlocate
+sys-apps/portage
 sys-apps/usbutils
 sys-boot/grub
 sys-fs/btrfs-progs
